@@ -22,7 +22,7 @@ $(boot2docker shellinit)
 
 Start blurrily as a docker container? 
 ```
-docker run  --env DOCKER_HOST=$DOCKER_HOST --env DOCKER_TLS_VERIFY=$DOCKER_TLS_VERIFY --env DOCKER_CERT_PATH=/docker/cert -v $DOCKER_CERT_PATH:/docker/cert -ti -d mrmattwright/docker-blurrily blurily
+docker run  --env DOCKER_HOST=$DOCKER_HOST --env DOCKER_TLS_VERIFY=$DOCKER_TLS_VERIFY --env DOCKER_CERT_PATH=/docker/cert -v $DOCKER_CERT_PATH:/docker/cert -p "12021:12021" -ti -d mrmattwright/docker-blurrily blurrily
 ```
 
 Now to avoid port forwarding hell we will just look for the docker host:
