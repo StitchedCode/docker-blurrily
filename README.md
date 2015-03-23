@@ -1,5 +1,6 @@
 # docker-blurrily
-Simple docker image for running Blurrily as a container
+Simple docker image for running the awesomeness that is [Blurrily](https://github.com/mezis/blurrily) as a container. 
+
 
 Welcome to the future. Go install docker. [Docker MacOS Instructions](https://docs.docker.com/installation/mac/)
 
